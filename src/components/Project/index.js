@@ -121,9 +121,9 @@ const Project = () => {
                         <a href={currentProject.link} target="_blank" className="gpa30x3z65 ut7pmfjxxd">
                             <p>Visit</p>
                         </a>
-                        <div className="gpa30x3z65 ut7pmfjxxd purple">
+                        <a href={currentProject.code} target="_blank" className="gpa30x3z65 ut7pmfjxxd purple">
                             <p>Code</p>
-                        </div>
+                        </a>
                     </div>
                     <div>
                         <p className="ff-cubano fs-32 padding-bottom-10">About This project</p>
