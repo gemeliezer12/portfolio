@@ -1,0 +1,76 @@
+[
+    {
+        "id": 2,
+        "title": "Cozy Turtle",
+        "summary": "",
+        "images" : {
+            "main": "cozy-turtle-1.png",
+            "second": "cozy-turtle.png"
+        },
+        "imageSlider" : [
+            "cozy-turtle.png",
+            "cozy-turtle-1.png"
+        ],
+        "desc": "Built a personal portfolio with inspired by fireship.io",
+        "content": ["Built another portfolio to learn more about react. And also used the CSS library I've built before. And add more and refine my CSS library"]
+        ,
+        "tags" : ["HTML5", "CSS", "JavaScript"],
+        "link" : "https://gemeliezer12.github.io/portfolio0.1/"
+    },
+    {
+        "id": 0,
+        "title": "Twitter Clone",
+        "summary": "",
+        "images" :{
+            "main": "twitter-clone.png",
+            "second": "twitter-clone-1.png"
+        },
+        "imageSlider" : [
+            "twitter-clone-1.png",
+            "twitter-clone.png",
+            "twitter-clone-2.png"
+        ],
+        "desc": "Built a full-stack social media website with JavaScript/jQuery, PHP, MySQL and AJAX",
+        "content": ["Built a full-stack social media website with JavaScript/jQuery, PHP, MySQL and AJAX"]
+        ,
+        "tags": ["HTML5", "CSS", "JavaScript", "PHP", "MySQL", "AJAX"],
+        "link": "https://campfirecozy.000webhostapp.com/profile.php?username=username"
+    },
+    {
+        "id": 1,
+        "title": "Old Portfolio",
+        "summary": "",
+        "images" :{
+            "main": "old-portfolio-1.png",
+            "second": "old-portfolio.png"
+        },
+        "imageSlider" : [
+            "old-portfolio-1.png",
+            "old-portfolio.png",
+            "old-portfolio-2.png"
+        ],
+        "desc": "Learnt React by building my first project, a personal portfilio",
+        "content": ["My Personal Website Portfolio built with React.", "First React project I made to learn React and make a better portfolio.", "I've used React JS and CSS for the front end. And used JSON to store my websites content. I've also used Email JS for sending Email without the need for a backend."]
+        ,
+        "tags": ["HTML5", "CSS", "JavaScript", "React", "Email JS"],
+        "link": "https://gemeliezer.netlify.app/"
+    },
+    {
+        "id": 3,
+        "title": "Blood Xploit",
+        "summary": "",
+        "images" :{
+            "main": "bloodxploit.png",
+            "second": "bloodxploit-1.png"
+        },
+        "imageSlider" : [
+            "bloodxploit-1.png",
+            "bloodxploit.png"
+        ],
+        "desc": "A Landing page for Game exploit and download for dll injector",
+        "content": ["A simple one page website" ,"This is my first website I made for someone else. It's build with HTML, CSS and jQuery. It's a simple one page website where where you can download a file."]
+        ,
+        "tags": ["HTML5", "CSS", "JavaScript", "React"],
+        "link": "https://bloodxploit.netlify.app/"
+    }
+]
