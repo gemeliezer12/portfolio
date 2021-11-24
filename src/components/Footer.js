@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div style={{
                     width: "100%",
-                    borderBottom: "2px dashed var(--bg-color-2)"
+                    borderBottom: "2px dashed var(--bg-color-4)"
                 }}></div>
             </div>
         </div>

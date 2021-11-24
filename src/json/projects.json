@@ -76,5 +76,21 @@
         "tags": ["HTML5", "CSS", "JavaScript", "React"],
         "link": "https://bloodxploit.netlify.app/",
         "code": "https://github.com/gemeliezer12/portfolio"
+    },
+    {
+        "id": 4,
+        "title": "Chat App",
+        "summary": "A realtime chat app built with React JS, CSS and Firebase",
+        "images" :{
+            "main": "chat-app.png"
+        },
+        "imageSlider" : [
+            "chat-app.png"
+        ],
+        "desc": "A realtime chat app built with React JS, CSS and Firebase",
+        "content": ["This is a project I built to learn Firebase"]
+        ,
+        "tags": ["HTML5", "CSS", "JavaScript", "React", "Firebase"],
+        "code": "https://github.com/gemeliezer12/react-firebase-chat-app"
     }
 ]

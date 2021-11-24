@@ -12,7 +12,6 @@ const filterById = (id, object) => {
 }
 
 const sortObject = (toSort) => {
-    console.log("SAD");
     let result = [];
     for(let i = 0; i < toSort.length; i++){
         result.push(filterById(i, toSort))

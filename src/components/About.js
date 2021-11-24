@@ -9,7 +9,7 @@ const About = () => {
             </div>
             <div className="margin-top-32 gap-15 vbk3n7jid7">
                 <div className="text-center padding-all-15 border-radius-6 iehygbnwgs" style={{
-                    backgroundColor: "var(--bg-color-2)",
+                    backgroundColor: "var(--bg-color-4)",
                 }}>
                     <h2 className="ff-cubano fs-26" style={{
                         color: "var(--text-color-2)"
@@ -23,7 +23,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="text-center padding-all-15 border-radius-6 iehygbnwgs" style={{
-                    backgroundColor: "var(--bg-color-2)",
+                    backgroundColor: "var(--bg-color-4)",
                 }}>
                     <h2 className="ff-cubano fs-26" style={{
                         color: "var(--text-color-2)"

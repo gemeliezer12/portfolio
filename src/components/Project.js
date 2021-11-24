@@ -7,7 +7,7 @@ const Project = ({project}) => {
         key={project.id}
         className="ut7pmfjxxd iehygbnwgs column space-between padding-all-15 border-radius-6"
         style={{
-            backgroundColor: "var(--bg-color-2)",
+            backgroundColor: "var(--bg-color-4)",
         }}>
             <div>
                 <div style={{
@@ -30,9 +30,13 @@ const Project = ({project}) => {
                     </div>
                 </div>
             </div>
-            <a href={project.link} className="ums5emasw3 margin-y-20 ut7pmfjxxd" target="_blank" style={{
+            <a href={project.link} className="solid-btn margin-y-20 ut7pmfjxxd" target="_blank" style={{
                 display: "flex"
-            }}>Visit</a>
+            }}>
+                <p>
+                    Visit
+                </p>
+            </a>
         </Link>
     )
 }

@@ -23,12 +23,12 @@ const Home = () => {
                     </span>
                     </p>
                     <div className="flex-wrap gap-15">
-                        <Link to="/contact" className="gpa30x3z65 orange ut7pmfjxxd">
+                        <Link to="/contact" className="solid-btn orange ut7pmfjxxd">
                             <p>
                                 Contact
                             </p>
                         </Link>
-                        <a href="resume.pdf" target="_blank" className="gpa30x3z65 ut7pmfjxxd">
+                        <a href="resume.pdf" target="_blank" className="solid-btn ut7pmfjxxd">
                             <p>
                                 Resume
                             </p>

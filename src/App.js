@@ -30,6 +30,20 @@ const App = () => {
         <Contact/>
       )}/>
       <Footer/>
+      {/* <Routes>
+        <Route exact path="/" element={
+          <Home/>
+        }/>
+        <Route exact path="/portfolio" element={
+          <Portfolio/>
+        }/>
+        <Route exact path="/portfolio/:project" element={
+          <Project/>
+        }/>
+        <Route exact path="/contact" element={
+          <Contact/>
+        }/>
+      </Routes> */}
     </Router>
   )
 }

@@ -15,12 +15,12 @@ const Contact = () => {
                     </a>
                 </p>
                 <div className="flex-wrap gap-15">
-                    <Link to="/contact" className="gpa30x3z65 ut7pmfjxxd orange">
+                    <Link to="/contact" className="solid-btn ut7pmfjxxd orange">
                         <p>
                             Conact
                         </p>
                     </Link>
-                    <a href="resume.pdf" target="_blank" className="gpa30x3z65 ut7pmfjxxd">
+                    <a href="resume.pdf" target="_blank" className="solid-btn ut7pmfjxxd">
                         <p>
                             Resume
                         </p>

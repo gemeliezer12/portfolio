@@ -1,18 +1,18 @@
 import { useState } from "react"
 import { Link, useHistory } from "react-router-dom"
 
+import Input from "../Input"
+import TextArea from "../TextArea"
+
 import emailjs from "emailjs-com"
 
 const Contact = () => {
     const history = new useHistory()
-    const [name, setName] = useState({name: "name", type: "text", value: "", isValid: undefined})
-    const [email, setEmail] = useState({name: "email", type: "email", value: "", isValid: undefined})
-    const [message, setMessage] = useState({name: "message", type: "text", value: "", isValid: undefined})
+    const [name, setName] = useState({name: "name", type: "text", value: "", isValid: undefined, isRequired: true, label: "Name"})
+    const [email, setEmail] = useState({name: "email", type: "email", value: "", isValid: undefined, isRequired: true, label: "Email"})
+    const [message, setMessage] = useState({name: "message", type: "text", value: "", isValid: undefined, isRequired: true, label: "Message"})
 
-    const textareaGrow = (e) => {
-        e.style.height = "1px"
-        e.style.height = (e.scrollHeight)+"px"
-    }
+    
 
     const sendEmail = (e) =>{
         e.preventDefault();
@@ -50,31 +50,19 @@ const Contact = () => {
                 width: "100%",
                 maxWidth: "600px",
                 margin: "auto",
-                backgroundColor: "var(--bg-color-3)"
+                backgroundColor: "var(--bg-color-2)"
             }}>
                 <div className="padding-x-32">
                     <div>
                         <p className="fs-40 ff-cubano">Get in touch</p>
                     </div>
                     <form className="column flex gap-10 margin-top-20" onSubmit={(e) => sendEmail(e)} onChange={(e) => onChange(e)} autoComplete="off">
-                        <div className={`ndfqlamrak ${name.isValid}`}>
-                            <label htmlFor={name.name} className="capitalize">{name.name}</label>
-                            <input name={name.name} type={name.type} className="padding-all-4"/>
-                        </div>
-                        <div className={`ndfqlamrak ${email.isValid}`}>
-                            <label htmlFor={email.name} className="capitalize">{email.name}</label>
-                            <input name={email.name} type={email.type} className="fs-20 padding-all-4"/>
-                        </div>
-                        <div className={`ndfqlamrak ${message.isValid}`}>
-                            <label htmlFor={message.name} className="capitalize">{message.name}</label>
-                            <textarea name={message.name} className="s379h8kz4h padding-all-4" style={{
-                                resize: "none",
-                                height: "36px"
-                            }}></textarea>
-                        </div>
+                        <Input input={name}/>
+                        <Input input={email}/>          
+                        <TextArea textarea={message}/>          
                         <div>
                             {name.isValid && email.isValid && message.isValid ? (
-                                <button className="ums5emasw3 ut7pmfjxxd" style={{
+                                <button className="solid-btn ut7pmfjxxd" style={{
                                     color: "blue"
                                 }}>
                                     <p>
@@ -82,7 +70,7 @@ const Contact = () => {
                                     </p>
                                 </button>
                             ):(
-                                <button disabled className="ums5emasw3" style={{
+                                <button disabled className="solid-btn" style={{
                                     backgroundColor: "rgba(145, 150, 155)",
                                     borderColor: "rgba(145, 150, 155)"
                                 }}>
@@ -93,7 +81,7 @@ const Contact = () => {
                             )}
                         </div>
                         <div className="text-center">
-                            <div onClick={() => history.goBack()} to="/" className="ums5emasw3 ut7pmfjxxd" style={{
+                            <div onClick={() => history.goBack()} to="/" className="solid-btn ut7pmfjxxd" style={{
                                 backgroundColor: "var(--red)",
                                 borderColor: "var(--red)",
                                 padding: "10px",
@@ -110,7 +98,7 @@ const Contact = () => {
             </div>
             <div className="padding-x-15">
                 <div style={{
-                    borderBottom: "2px dashed var(--bg-color-2)"
+                    borderBottom: "2px dashed var(--bg-color-4)"
                 }}></div>
             </div>
             </>

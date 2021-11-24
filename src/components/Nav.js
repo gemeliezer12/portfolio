@@ -42,7 +42,7 @@ const Nav = () => {
                 position: "fixed",
                 width: "100vw",
                 height: "60px",
-                backgroundColor: "var(--bg-color-2)",
+                backgroundColor: "var(--bg-color-4)",
                 zIndex: "10"
             }}>
                 <div className="padding-x-15 height-100pc space-between">
@@ -57,10 +57,6 @@ const Nav = () => {
                         </Link>
                     </div>
                     <div className="row height-100pc gap-10">
-                        <Link to="/" className="z7z5jhi26x cursor-pointer">
-                            <i className="fas fa-search fs-32"></i>
-                            <label className="kvcdz3lpy3">Search</label>
-                        </Link>
                         <div className="z7z5jhi26x cursor-pointer" onClick={toggleMode}>
                         {lightMode === "true" ? (
                             <i className="fas fa-moon fs-32"></i>

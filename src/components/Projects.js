@@ -34,7 +34,11 @@ const Projects = () => {
                 ))}
             </div>
             <div className="flex justify-center">
-                <Link to="/portfolio" className="gpa30x3z65 margin-y-20 ut7pmfjxxd text-center">See More</Link>
+                <Link to="/portfolio" className="solid-btn margin-y-20 ut7pmfjxxd text-center">
+                    <p>
+                        See More
+                    </p>
+                </Link>
             </div>
         </div>
     )
